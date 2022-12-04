@@ -61,10 +61,10 @@ export default function AboutPage({topTracks, randomLastFMTrack}: Props) {
 				<h2 className="text-3xl font-bold">Music</h2>
 
 				<p>
-					I listen to a lot of music, here is a song that I liked {' '}
+					I listen to a lot of music, here is a song that I liked. {' '}
 					<span className="font-bold">{randomLastFMTrack.name}</span> by{' '}
 					<span className="font-bold">{randomLastFMTrack.artist.name}</span>{' '}
-					exactly{' '}
+					that I played exactly{' '}
 					<span className="font-bold">{randomLastFMTrack.playcount}</span>{' '}
 					times! Below you can find a collection of my favourite
 					songs from the past 4 weeks.
