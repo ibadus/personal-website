@@ -102,7 +102,7 @@ export default function Index(props: Props) {
 
 				<h1 className="text-3xl font-bold sm:text-4xl md:text-6xl">
 					Hey, I'm{' '}
-					<span className="text-neutral-500 dark:text-neutral-400">ibadus</span>
+					<span className="text-neutral-600 dark:text-neutral-400">ibadus</span>
 				</h1>
 
 				<p className="opacity-80">
