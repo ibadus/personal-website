@@ -53,9 +53,9 @@ export default function AboutPage({topTracks, randomLastFMTrack}: Props) {
 
 			<div className="space-y-8">
 				<p>
-					Programming since i'm 17, I'm a self-taught developer caring a lot about performance and clean code.
+					Programming since I'm 17, I'm a self-taught developer caring a lot about performance and clean code.
 					Specialized in software/web security, software developpment but I also do some full-stack developpment.
-					I'm always looking for new challenges and new things to learn. I'm also a watchenthusiast and really enjoy music.
+					I'm always looking for new challenges and new things to learn.
 				</p>
 
 				<h2 className="text-3xl font-bold">Music</h2>
@@ -268,7 +268,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 	await redis.quit();
 
 	const lfm = new LastFM(LAST_FM_API_KEY);
-	const topLFMTracks = await lfm.getTopTracks('aabbccsmith', '12month');
+	const topLFMTracks = await lfm.getTopTracks('ibadus', '12month');
 
 	return {
 		props: {
