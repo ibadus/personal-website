@@ -27,7 +27,7 @@ export default function Contact() {
 				<br />
 				<br />
 				Leave a message on the form below or get in touch through Discord,
-				Twitter or email.				
+				Twitter or email.
 			</p>
 
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-2">

@@ -81,7 +81,7 @@ export default function Index(props: Props) {
 					<p className="inline-flex items-center space-x-2">
 						<a
 							target="_blank"
-							href={`https://www.google.com/maps/search/Paris`}
+							href="https://www.google.com/maps/search/Paris"
 							rel="noreferrer"
 							className="flex items-center rounded-full bg-neutral-200 px-2 pr-3 text-neutral-600 no-underline transition-colors dark:bg-neutral-700 dark:text-white dark:text-opacity-50 dark:hover:bg-neutral-800"
 						>
@@ -102,7 +102,7 @@ export default function Index(props: Props) {
 
 				<h1 className="text-3xl font-bold sm:text-4xl md:text-6xl">
 					Hey, I'm{' '}
-					<span className="text-neutral-500 dark:text-neutral-400">ibadus</span> 
+					<span className="text-neutral-500 dark:text-neutral-400">ibadus</span>
 				</h1>
 
 				<p className="opacity-80">

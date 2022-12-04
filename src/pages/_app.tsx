@@ -19,7 +19,7 @@ import {loadCursor} from '../util/cursor';
 
 import {AnimatePresence, motion} from 'framer-motion';
 import {fetcher} from '../util/fetcher';
-import { SiGithub, SiTwitter } from 'react-icons/si';
+import {SiGithub, SiTwitter} from 'react-icons/si';
 
 Router.events.on('routeChangeStart', () => NProgress.start());
 Router.events.on('routeChangeComplete', () => NProgress.done());
