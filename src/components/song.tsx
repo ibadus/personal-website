@@ -28,7 +28,7 @@ export function Song() {
 			href={`https://open.spotify.com/track/${user.spotify.track_id}`}
 		>
 			<span className="truncate">
-				{user.spotify.song} <span className="text-gray-500">by</span> {user.spotify.artist}
+				Listening to {user.spotify.song} <span className="text-gray-500">by</span> {user.spotify.artist}
 			</span>
 			<span>
 				<SiSpotify />
