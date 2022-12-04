@@ -21,6 +21,8 @@ import {AnimatePresence, motion} from 'framer-motion';
 import {fetcher} from '../util/fetcher';
 import {SiGithub, SiTwitter} from 'react-icons/si';
 
+import { Analytics } from '@vercel/analytics/react';
+
 Router.events.on('routeChangeStart', () => NProgress.start());
 Router.events.on('routeChangeComplete', () => NProgress.done());
 Router.events.on('routeChangeError', () => NProgress.done());
@@ -201,6 +203,7 @@ export default function App({
 						>
 							<main className="mx-auto max-w-3xl space-y-12 md:py-24">
 								<Component {...pageProps} />
+								<Analytics />
 							</main>
 
 							<footer className="mx-auto mt-20 max-w-3xl border-t-2 border-neutral-900/10 p-4 py-10 dark:border-white/10">
