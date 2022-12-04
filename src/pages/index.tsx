@@ -143,7 +143,7 @@ export default function Index(props: Props) {
 				<h1 className="text-2xl font-bold sm:text-3xl">Technologies 💻</h1>
 
 				<p className="opacity-80">
-					Here are some Technologies that I use.
+					Here are some technologies that I use.
 					<br />
 					I use macOS btw.
 				</p>
