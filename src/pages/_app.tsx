@@ -215,7 +215,7 @@ export default function App({
 										rel="noreferrer"
 										aria-label="GitHub Profile"
 									>
-										<SiGithub className="h-7 w-7 opacity-50 hover:opacity-100 hover:text-white" />
+										<SiGithub className="h-7 w-7 opacity-50 hover:opacity-100 hover:text-black dark:hover:text-white" />
 										<span className="sr-only">GitHub Profile</span>
 									</a>
 
