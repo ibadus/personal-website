@@ -109,7 +109,7 @@ export default function Index(props: Props) {
 					I'm a <span suppressHydrationWarning>~{age.toPrecision(4)}</span> year
 					old entrepreneur that loves software engineering. I'm passionate about
 					entrepreneurship, and building cool softwares/websites. I spend most
-					of my time improving myself and learning new things.
+					of my time learning new things.
 				</p>
 			</div>
 
