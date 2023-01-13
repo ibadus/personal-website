@@ -107,7 +107,7 @@ export default function Index(props: Props) {
 
 				<p className="opacity-80">
 					I'm a <span suppressHydrationWarning>~{age.toPrecision(4)}</span> year
-					old entrepreneur that loves software ingeneering. I'm passionate about
+					old entrepreneur that loves software engineering. I'm passionate about
 					entrepreneurship, and building cool softwares/websites. I spend most
 					of my time improving myself and learning new things.
 				</p>
@@ -121,7 +121,7 @@ export default function Index(props: Props) {
 						DaisyLabs
 					</a>
 					, a software that automates online purchases for limited products especially
-					sneakers. Meaning I spend a lot of time doing web/software cybersecurity and software ingeneering.
+					sneakers. Meaning I spend a lot of time doing web/software cybersecurity and software engineering.
 					<br />
 					I'm currently studying at{' '}
 					<a href="https://42.fr/en" target="_blank" rel="noreferrer">
