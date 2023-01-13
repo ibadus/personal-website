@@ -116,12 +116,13 @@ export default function Index(props: Props) {
 			<div className="space-y-4">
 				<h1 className="text-2xl font-bold sm:text-3xl">What do I do? 💭</h1>
 				<p className="opacity-80">
-					Currently I'm working on{' '}
+					{/* Currently I'm working on{' '}
 					<a href="https://twitter.com/LabsDaisy" target="_blank" rel="noreferrer">
 						DaisyLabs
 					</a>
 					, a software that automates online purchases for limited products especially
-					sneakers. Meaning I spend a lot of time doing web/software cybersecurity and software engineering.
+					sneakers. Meaning  */}
+					I spend a lot of time doing web/software cybersecurity and software engineering.
 					<br />
 					I'm currently studying at{' '}
 					<a href="https://42.fr/en" target="_blank" rel="noreferrer">
