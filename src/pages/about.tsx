@@ -53,9 +53,9 @@ export default function AboutPage({topTracks, randomLastFMTrack}: Props) {
 
 			<div className="space-y-8">
 				<p>
-					Programming since I'm 16, I'm a self-taught developer caring a lot about performance and clean code.
+					Programming since I'm 16, I'm a self-taught developer caring a lot about performances and clean code.
 					Specialized in software/web security, software developpment but I also do some full-stack developpment.
-					I'm always looking for new challenges and to learn.
+					I'm always looking for new challenges.
 				</p>
 
 				<h2 className="text-3xl font-bold">Music</h2>

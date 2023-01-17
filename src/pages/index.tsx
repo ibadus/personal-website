@@ -116,12 +116,6 @@ export default function Index(props: Props) {
 			<div className="space-y-4">
 				<h1 className="text-2xl font-bold sm:text-3xl">What do I do? 💭</h1>
 				<p className="opacity-80">
-					{/* Currently I'm working on{' '}
-					<a href="https://twitter.com/LabsDaisy" target="_blank" rel="noreferrer">
-						DaisyLabs
-					</a>
-					, a software that automates online purchases for limited products especially
-					sneakers. Meaning  */}
 					I spend a lot of time doing web/software cybersecurity and software engineering.
 					<br />
 					I'm currently studying at{' '}
@@ -130,7 +124,7 @@ export default function Index(props: Props) {
 					</a>{', '}
 					an IT school fully in P2P without teacher nor classes.
 					<br />
-					I also sometimes open source some stuff (but most of my repos are private).
+					I sometimes open source some stuff as well (but most of my repos are private).
 				</p>
 
 				<div className="grid auto-cols-max grid-cols-1 gap-1 sm:grid-cols-2 sm:gap-3">
@@ -146,7 +140,7 @@ export default function Index(props: Props) {
 				<p className="opacity-80">
 					Here are some technologies that I use.
 					<br />
-					I use macOS btw.
+					I use MacOS btw.
 				</p>
 
 				<ul className="grid grid-cols-3 gap-4 sm:grid-cols-4">
