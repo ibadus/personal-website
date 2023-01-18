@@ -15,7 +15,7 @@ export default api({
 			method: 'POST',
 			headers: {'Content-Type': 'application/json'},
 			body: JSON.stringify({
-				content: 'new email innit',
+				content: 'new email',
 				embeds: [
 					{
 						description: body.body,
