@@ -3,6 +3,7 @@
 import {Fragment, useEffect, useState} from "react";
 import type {Work} from "./work";
 import {Dialog, Transition} from '@headlessui/react';
+import Image from 'next/image'; // TODO: remove during development
 
 type work = {
 	work: Work;
@@ -85,7 +86,16 @@ export function WorkCard(props: work) {
 									</button>
 
 									<div className="lg:-mx-8 top-0 flex" style={{maxWidth: "1920px", maxHeight: "640px"}}>
-										<img src={props.work.banner} className="aspect-auto" alt="banner" width="1920px" height="640px"/> {/* TODO: switch to <Image/> but it cause a bug on local */}
+										{/* <img src={props.work.banner} className="aspect-auto" alt="banner" width="1920px" height="640px"/>  */}
+										{/* TODO: switch to <Image/> but it cause a bug on local */}
+										<Image
+											alt="Banner"
+											src={props.work.banner}
+											width={1920}
+											height={640}
+											placeholder="blur"
+											className="aspect-auto"
+										/>
 									</div>
 
 									<div className="p-6 overflow-y-scroll">
