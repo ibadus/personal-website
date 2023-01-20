@@ -101,6 +101,9 @@ export default function App({
 			<NavLink href="/about" closeMenu={closeMenu}>
 				/about
 			</NavLink>
+			<NavLink href="/portfolio" closeMenu={closeMenu}>
+				/portfolio
+			</NavLink>
 			<NavLink href="/contact" closeMenu={closeMenu}>
 				/contact
 			</NavLink>
@@ -128,7 +131,7 @@ export default function App({
 					fetcher,
 				}}
 			>
-				<Toaster toastOptions={{position: 'top-left'}} />
+				<Toaster toastOptions={{position: 'top-right'}} />
 
 				<Head>
 					<title>ibadus</title>
@@ -149,7 +152,7 @@ export default function App({
 					)}
 				</AnimatePresence>
 
-				<div className="sticky top-0 z-20 h-32 overflow-hidden transition-all sm:hidden">
+				<div className="sticky top-0 z-20 h-32 overflow-hidden transition-all sm:hidden" id="navbar">
 					<div
 						className={`${
 							hasScrolled || mobileMenuOpen ? 'mt-0' : 'mx-5 mt-10'
@@ -166,7 +169,7 @@ export default function App({
 						>
 							<button
 								type="button"
-								className="relative z-50 block px-2 text-neutral-500 transition-all focus:ring"
+								className="relative z-40 block px-2 text-neutral-500 transition-all focus:ring"
 								onClick={toggleMenu}
 							>
 								<Hamburger
