@@ -107,7 +107,7 @@ export function WorkCard(props: work) {
 											{props.work.company}
 										</Dialog.Title>
 										<div>
-											<p className="text-sm text-gray-500">
+											<p className="text-sm text-gray-200">
 												{props.work.short_description}
 											</p>
 										</div>
