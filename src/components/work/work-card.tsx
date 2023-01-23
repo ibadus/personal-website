@@ -30,10 +30,10 @@ export function WorkCard(props: work) {
 			<div>
 				<button
 					type="button"
-					className="rounded-md px-4 py-2 text-sm font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+					className="rounded-md text-sm font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 hover:text-blue-700"
 					onClick={openModal}
 				>
-					<div className="inline-flex">
+					<div className="inline-flex ">
 						<h1 className="block text-xl font-medium sm:text-xl md:text-2xl">
 							{props.work.start_year} - {props.work.end_year}
 						</h1>
@@ -44,7 +44,7 @@ export function WorkCard(props: work) {
 							{props.work.company}
 						</h1>
 					</div>
-					<p className="flex font-medium text-sm text-gray-500">
+					<p className="flex font-medium text-sm">
 						Click to view more
 					</p>
 				</button>
@@ -85,8 +85,8 @@ export function WorkCard(props: work) {
 										✕
 									</button>
 
-									<div className="lg:-mx-8 top-0 flex" style={{maxWidth: "1920px", maxHeight: "640px"}}>
-										{/* <img src={props.work.banner} className="aspect-auto" alt="banner" width="1920px" height="640px"/>  */}
+									<div className="text-neutral-900/30 transition-all hover:text-neutral-900 dark:text-white/20 dark:hover:text-white/100 lg:-mx-8 top-0 flex">
+										{/* <img src={props.work.banner} className="aspect-auto" alt="banner"/> */}
 										{/* TODO: switch to <Image/> but it cause a bug on local */}
 										<Image
 											alt="Banner"
@@ -94,7 +94,7 @@ export function WorkCard(props: work) {
 											width={1920}
 											height={640}
 											placeholder="blur"
-											className="aspect-auto"
+											className="aspect-auto block rounded-xl object-cover shadow-xl shadow-neutral-300 dark:shadow-none"
 										/>
 									</div>
 

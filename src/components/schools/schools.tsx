@@ -12,7 +12,7 @@ export type School = {
 
 export const Schools: School[] = [
 	{
-		name: <span><Si42 className='inline'/> Paris</span>,
+		name: <span className="hover:text-blue-700"><Si42 className='inline'/> Paris <span className="text-sm">↗️</span></span>,
 		start_year: "2021",
 		end_year: "current",
 		link: "https://www.42.fr/",
@@ -21,7 +21,7 @@ export const Schools: School[] = [
 		id: "42"
 	},
 	{
-		name: <span>CNAM</span>,
+		name: <span className="hover:text-blue-700">CNAM <span className="text-sm">↗️</span></span>,
 		start_year: "2020",
 		end_year: "2021",
 		link: "https://www.cnam.fr/",

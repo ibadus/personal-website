@@ -13,43 +13,41 @@ export default function Portfolio(props: Props) {
 				Portfolio
 			</h1>
 
-			<h1 className="block text-xl font-bold sm:text-2xl md:text-4xl">
+			<h3 className="block text-xl font-bold sm:text-2xl md:text-4xl">
 				Education
-			</h1>
+			</h3>
 
 			{Schools.map(school =>
 				<ShcoolCard key={school.id} school={school}/>
 			)}
 
-			<h1 className="block text-xl font-bold sm:text-2xl md:text-4xl">
+			<h3 className="block text-xl font-bold sm:text-2xl md:text-4xl">
 				Languages
-			</h1>
+			</h3>
 
-			<div>
-				<div>
-					<h1 className="block text-l font-semibold sm:text-l md:text-xl">
+			<div className='inline-flex'>
+				<div className='mr-4'>
+					<p className="flex text-l font-semibold sm:text-l md:text-xl">
 						🇫🇷 French
-					</h1>
+					</p>
+					<p className="flex text-m font-normal sm:text-m md:text-l">
+						Native
+					</p>
 				</div>
-				<h2 className="block text-m font-normal sm:text-m md:text-l">
-					Native
-				</h2>
-			</div>
 
-			<div>
-				<div>
-					<h1 className="block text-l font-semibold sm:text-l md:text-xl">
+				<div className='ml-4'>
+					<p className="block text-l font-semibold sm:text-l md:text-xl">
 						🇬🇧 English
-					</h1>
+					</p>
+					<p className="block text-m font-normal sm:text-m md:text-l">
+						Fluent
+					</p>
 				</div>
-				<h2 className="block text-m font-normal sm:text-m md:text-l">
-					Fluent
-				</h2>
 			</div>
 
-			<h1 className="block text-xl font-bold sm:text-2xl md:text-4xl">
+			<h3 className="block text-xl font-bold sm:text-2xl md:text-4xl">
 				Experiences
-			</h1>
+			</h3>
 
 			{Works.map(work =>
 				<WorkCard key={work.company} work={work}/>

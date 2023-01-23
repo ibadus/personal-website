@@ -14,8 +14,8 @@ export function ShcoolCard(props: school) {
 				<span className="block text-xl font-medium sm:text-xl md:text-2xl px-2">
 					·
 				</span>
-				<h3 className="block text-xl font-semibold sm:text-xl md:text-2xl hover:text-blue-700">
-					<a target="_blank" rel="noreferrer" href={props.school.link}>
+				<h3 className="text-xl font-semibold sm:text-xl md:text-2xl">
+					<a target="_blank" rel="noreferrer" href={props.school.link} className="hover:decoration-blue-700">
 						{props.school.name}
 					</a>
 				</h3>
