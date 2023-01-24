@@ -63,6 +63,7 @@ export default function Index(props: Props) {
 						target="_blank"
 						rel="noreferrer"
 						aria-label="GitHub Profile"
+						className='opacity-50 hover:text-black hover:opacity-100 dark:hover:text-white'
 					>
 						<SiGithub className="h-7 w-7" />
 						<span className="sr-only">GitHub Profile</span>
@@ -73,6 +74,7 @@ export default function Index(props: Props) {
 						target="_blank"
 						rel="noreferrer"
 						aria-label="Twitter Profile"
+						className='opacity-50 hover:text-blue-300 hover:opacity-100'
 					>
 						<SiTwitter className="h-7 w-7" />
 						<span className="sr-only">Twitter Profile</span>
@@ -119,8 +121,8 @@ export default function Index(props: Props) {
 					I spend a lot of time doing web/software cybersecurity and software engineering.
 					<br />
 					I'm currently studying at{' '}
-					<a href="https://42.fr/en" target="_blank" rel="noreferrer">
-						<Si42 className='inline'/> Paris
+					<a href="https://42.fr/en" target="_blank" rel="noreferrer" className='hover:decoration-blue-700 hover:text-blue-700'>
+						<Si42 className='inline'/> Paris <span className="text-xs">↗️</span>
 					</a>{', '}
 					an IT school fully in P2P without teacher nor classes.
 					<br />
