@@ -210,7 +210,6 @@ export default function App({
 							</main>
 
 							<footer className="mx-auto mt-20 max-w-3xl border-t-2 border-neutral-900/10 p-4 py-10 dark:border-white/10">
-								<h1 className="text-3xl font-bold opacity-50">ibadus</h1>
 								<div className="flex items-center space-x-3">
 									<a
 										href="https://github.com/ibadus"
@@ -232,6 +231,7 @@ export default function App({
 										<span className="sr-only">Twitter Profile</span>
 									</a>
 								</div>
+								<p className="mt-2 text-sm font-bold opacity-50">ibadus</p>
 							</footer>
 						</motion.div>
 					</AnimatePresence>
