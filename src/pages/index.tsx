@@ -15,6 +15,7 @@ import {
 	SiGit,
 	SiGithub,
 	SiGithubactions,
+	SiGitlab,
 	SiGnubash,
 	SiGo,
 	SiGooglecloud,
@@ -29,12 +30,15 @@ import {
 	SiNodedotjs as SiNodeDotJs,
 	SiPostcss,
 	SiPostgresql,
+	SiPostman,
 	SiPython,
 	SiReact,
 	SiRedis,
+	SiRust,
 	SiSentry,
 	SiShell,
 	SiStripe,
+	SiSupabase,
 	SiTailwindcss,
 	SiTwitter,
 	SiTypescript,
@@ -147,36 +151,51 @@ export default function Index(props: Props) {
 
 				<ul className="grid grid-cols-3 gap-4 sm:grid-cols-4">
 					<ListItem icon={SiGo} text="Golang" />
+					<ListItem icon={SiRust} text="Rust" />
 					<ListItem icon={SiTypescript} text="TypeScript" />
 					<ListItem icon={SiPython} text="Python" />
 					<ListItem icon={SiC} text="C" />
 					<ListItem icon={SiCplusplus} text="C++" />
 					<ListItem icon={SiGnubash} text="Bash" />
 					<ListItem icon={SiNodeDotJs} text="Node.js" />
+
 					<ListItem icon={SiMongodb} text="Mongo" />
 					<ListItem icon={SiPostgresql} text="Postgres" />
+					<ListItem icon={SiSupabase} text="SupaBase" />
 					<ListItem icon={SiRedis} text="Redis" />
+
 					<ListItem icon={SiHtml5} text="HTML" />
 					<ListItem icon={SiCss3} text="CSS" />
+					<ListItem icon={SiPostcss} text="PostCSS" />
+
 					<ListItem icon={SiReact} text="React" />
 					<ListItem icon={SiNextDotJs} text="Next.js" />
 					<ListItem icon={SiTailwindcss} text="Tailwind" />
 					<ListItem icon={SiChakraui} text="Chakra UI" />
+
 					<ListItem icon={SiDocker} text="Docker" />
 					<ListItem icon={SiKubernetes} text="Kubernetes" />
+
 					<ListItem icon={SiAmazonaws} text="AWS" />
 					<ListItem icon={SiGooglecloud} text="GCP" />
+
 					<ListItem icon={SiVercel} text="Vercel" />
 					<ListItem icon={SiHeroku} text="Heroku" />
+
 					<ListItem icon={SiLinux} text="Linux" />
+
 					<ListItem icon={SiGit} text="Git" />
 					<ListItem icon={SiGithub} text="Github" />
 					<ListItem icon={SiGithubactions} text="Github Actions" />
+					<ListItem icon={SiGitlab} text="Gitlab" />
+
 					<ListItem icon={SiStripe} text="Stripe" />
 					<ListItem icon={SiSentry} text="Sentry" />
+
 					<ListItem icon={SiVisualstudiocode} text="VSCode" />
 					<ListItem icon={SiJetbrains} text="Jetbrains IDE" />
 					<ListItem icon={SiFigma} text="Figma" />
+					<ListItem icon={SiPostman} text="Postman" />
 					<ListItem icon={SiWireshark} text="Wireshark" />
 				</ul>
 			</div>
