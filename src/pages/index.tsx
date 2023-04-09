@@ -112,7 +112,7 @@ export default function Index(props: Props) {
 				</h1>
 
 				<p className="opacity-80">
-					I'm a <span suppressHydrationWarning>~{age.toPrecision(4)}</span> year
+					I'm a <span suppressHydrationWarning>{Math.floor(age)}</span> year
 					old entrepreneur that loves software engineering. I'm passionate about
 					entrepreneurship, and building cool softwares/websites. I spend most
 					of my time learning new things.
