@@ -12,9 +12,18 @@ export type School = {
 
 export const Schools: School[] = [
 	{
+		name: <span className="hover:text-blue-700">ESCP <span className="text-sm">↗️</span></span>,
+		start_year: "2023",
+		end_year: "2024",
+		link: "https://escp.eu/",
+		major: "Business School - Option Entrepreneurship",
+
+		id: "42"
+	},
+	{
 		name: <span className="hover:text-blue-700"><Si42 className='inline'/> Paris <span className="text-sm">↗️</span></span>,
 		start_year: "2021",
-		end_year: "current",
+		end_year: "2024",
 		link: "https://www.42.fr/",
 		major: "Computer Science",
 
