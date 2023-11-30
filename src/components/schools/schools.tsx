@@ -14,7 +14,7 @@ export const Schools: School[] = [
 	{
 		name: <span className="hover:text-blue-700">ESCP <span className="text-sm">↗️</span></span>,
 		start_year: "2023",
-		end_year: "2024",
+		end_year: "2023",
 		link: "https://escp.eu/",
 		major: "Business School - Option Entrepreneurship",
 
